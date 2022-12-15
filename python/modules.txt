@@ -1,0 +1,42 @@
+How to use python3 modules
+
+There are built-in modules and third-party modules.
+
+
+python3 - to go to python shell
+help('modules') - display all the built-in modules
+import math - add the math module you want to use
+dir(math) - list all the functions and variables in the module
+help(math) - find all functions and variables available in the module and how to use it
+
+Different ways to import modules
+
+# Method 1
+import math
+print(math.pi)
+print(math.pow(2,3))
+
+# Method 2
+from math import *
+print(pi)
+print(pow(2,3))
+
+# Method 3
+from math import pi, pow
+print(pi)
+print(pow(2,3))
+
+# Method 4
+import math as m
+print(m.pi)
+
+# Platform module
+
+
+
+
+
+
+
+
+
