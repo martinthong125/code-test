@@ -24,7 +24,7 @@ import os
 # os.rename(src, dest)
 
 # os.path is a sub module of os to work on paths
-# pathway = "/Users/martin.thong/test/python/os_mod.py"
+pathway = "/Users/martin.thong/test/python/os_mod.py"
 # path1 = "/home"
 # path2 = "python/file.py"
 # print(os.path.sep)
@@ -34,7 +34,7 @@ import os
 # print(path3)
 # print(os.path.split(path3))  # to split into (basename,filename)
 # print(os.path.getsize(pathway))
-# print(os.path.exists(pathway))
+print(os.path.exists(pathway))
 # print(os.path.isfile(pathway))
 # print(os.path.isdir(pathway))
 # print(os.path.islink(pathway))
